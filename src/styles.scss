@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  display: grid;
+  place-content: start center;
+  margin: 0;
+  font-size: 1.6rem;
+  background-color: #e8e8e8;
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+}
+
+.app {
+  margin: 40px 0;
+  max-width: 460px;
+
+  &__header {
+    text-align: center;
+    padding: 0 22px 36px 22px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid lightgray;
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    p {
+      margin: 0;
+      margin-bottom: 1.8rem;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
