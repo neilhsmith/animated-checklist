@@ -1,2 +1,7 @@
 # animated-checklist
-Created with CodeSandbox
+
+An accessible & animated checklist inspired by Trello.
+
+react, framer-motion, vanilla-css
+
+[demo](https://xh1m61.csb.app/)
